@@ -1,13 +1,13 @@
 # Api-
 
-Continut arhiva
+I. Continut arhiva
 
 	- api/ - folderul cu fisierul de conectare si cel cu clasa;
 	- index.html - fisierul pentru rulare;
 	- README - fisierul cu explicatiile aferente.
 	
 =================================================================================================================================
-Functionalitate
+II. Functionalitate
 
 Directorul (Api), face conectarea cu baza de date (config.php).
 
