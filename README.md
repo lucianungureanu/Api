@@ -2,20 +2,20 @@
 
 1. Continut arhiva
 
-	- api/ - folderul cu fisierul de conectare si cel cu clasa.
-	- build.xml - fisierul pentru rularea cu ant
-	- lib - cu jarurile necesare logarii si junit, gdocs api, ini
-	- README - fisierul cu explicatiile aferente
+	- api/ - folderul cu fisierul de conectare si cel cu clasa;
+	- index.html - fisierul pentru rulare;
+	- README - fisierul cu explicatiile aferente.
 	
 =================================================================================================================================
+2. Functionalitate
 
 Directorul (Api), face conectarea cu baza de date (config.php).
 
-In fisierul () 
-Se face sincronizare si verificare cu o cheie care ia informatiile de pe server.
-
-Se construieste o clasa si 4 methode:
-
-O metoda de autentificare cu cheie, si restul sa fie de update, delete si adaugare a informatiilor.
-
-Datele se trimit prin post.
+In fisierul (ApiClass.php) se gaseste clasa cu metodele:
+	 - functia de insert;
+	 - functia de delete;
+	 - functia de update;
+	 - functia de afisare;
+	 - functia de autentificare.
+	 - 
+In fisierul (index.php) se afla metoda de autentificare cu cheie si apelarea functiilor.
