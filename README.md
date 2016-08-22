@@ -7,7 +7,7 @@
 	- README - fisierul cu explicatiile aferente.
 	
 =================================================================================================================================
-2. Functionalitate
+2 Functionalitate
 
 Directorul (Api), face conectarea cu baza de date (config.php).
 
