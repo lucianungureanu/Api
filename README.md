@@ -11,11 +11,13 @@
 
 Directorul (Api), face conectarea cu baza de date (config.php).
 
+
 In fisierul (ApiClass.php) se gaseste clasa cu metodele:
 	 - functia de insert;
 	 - functia de delete;
 	 - functia de update;
 	 - functia de afisare;
 	 - functia de autentificare.
-	 - 
+	 
+
 In fisierul (index.php) se afla metoda de autentificare cu cheie si apelarea functiilor.
