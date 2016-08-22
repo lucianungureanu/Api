@@ -9,7 +9,7 @@ I. Continut arhiva
 =================================================================================================================================
 II. Functionalitate
 
-Directorul (Api), face conectarea cu baza de date (config.php).
+Conectarea cu baza de date se face prin config.php.
 
 In fisierul (ApiClass.php) se gaseste clasa cu metodele:
 
