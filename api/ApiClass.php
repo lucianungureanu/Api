@@ -10,7 +10,7 @@ class Api
 	public function Api($data = array()){
 		 	$this->data = $data;
 	}
-
+	//insert function
 	public function insert(){
 
 		$sql = "INSERT INTO ".$this->data['entity_type']." SET ";
@@ -27,6 +27,7 @@ class Api
 
 
 	}
+	//delete function
 	public function delete(){
 			$sql = "DELETE FROM ".$this->data['entity_type']." WHERE id = '".(int)$this->data['entity_id']."'";
 			
@@ -34,6 +35,7 @@ class Api
 
 		return 'sters';
 	}
+	//update function
 	public function update(){
 		$sql = "UPDATE ".$this->data['entity_type']." SET ";		
 		$db = Db::init();
@@ -44,7 +46,7 @@ class Api
 		$sql .= " WHERE id='".(int)$this->data['entity_id']."'";
 		$db->query($sql);
 	}	
-
+	//select function
 	public function getList(){
 		$sql = "SELECT * FROM ".$this->data['entity_type'];
 		$query = Db::init()->query($sql);
@@ -63,7 +65,7 @@ class Api
 		echo json_encode($row);
 	}
 
-
+	//login function
 	public function login(){
 		$sql = "SELECT * FROM users WHERE name='".$this->data['name']."' and password='".$this->data['password']."' ";
 		$query = Db::init()->query($sql);
