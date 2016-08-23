@@ -21,3 +21,9 @@ In fisierul (ApiClass.php) se gaseste clasa cu metodele:
 	- functia de autentificare.
 	 
 In fisierul (index.php) se afla metoda de autentificare cu cheie si apelarea functiilor.
+
+
+
+●     PHP and / or JavaScript
+
+●     Database - your choice 
