@@ -27,3 +27,4 @@ In fisierul (index.php) se afla metoda de autentificare cu cheie si apelarea fun
 ●     PHP and / or JavaScript
 
 ●     Database - your choice 
+
