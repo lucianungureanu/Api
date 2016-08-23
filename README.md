@@ -3,9 +3,9 @@
 
 I. Continut arhiva
 
-	- api/ - folderul cu fisierul de conectare si cel cu clasa;
-	- index.html - fisierul pentru rulare;
-	- README - fisierul cu explicatiile aferente.
+	●  api/ - folderul cu fisierul de conectare si cel cu clasa;
+	●  index.html - fisierul pentru rulare;
+	●  README - fisierul cu explicatiile aferente.
 	
 =================================================================================================================================
 II. Functionalitate
@@ -23,8 +23,4 @@ In fisierul (ApiClass.php) se gaseste clasa cu metodele:
 In fisierul (index.php) se afla metoda de autentificare cu cheie si apelarea functiilor.
 
 
-
-●     PHP and / or JavaScript
-
-●     Database - your choice 
 
